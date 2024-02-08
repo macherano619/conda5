@@ -17,6 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from rescate_perros.views import holamundo
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hola/holamundo')
 ]
